@@ -27,6 +27,9 @@
 // turn verity off in userdebug builds.
 #define VERITY_METADATA_MAGIC_DISABLE 0x46464f56 // "VOFF"
 
+// Add by marulam
+int fs_mgr_is_mdtp_activated(void);
+
 #ifdef __cplusplus
 extern "C" {
 #endif
